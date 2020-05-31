@@ -1,0 +1,32 @@
+<div class="block block-transparent block-fill-height block-angle app-block-rsvp">
+  <div class="block-bg-clip">
+    <div class="block-bg">
+      <div class="block-bg-img block-bg-img-top" style="background-image: url(images/notebook.jpeg)">
+      </div>
+    </div>
+  </div>
+
+  <div class="block-xs-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-sm-offset-7">
+          <h1 class="block-title m-b-md">
+            <span class="text-ribbon text-ribbon-primary">
+              <span>RSVP</span>
+            </span>
+          </h1>
+
+          <p class="lead">
+            <span class="text-ribbon text-ribbon-primary">
+              <span>Please let us know on Twitter how many people will be attending.</span>
+            </span>
+          </p>
+
+          <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Number of people">
+          <a type="button" class="btn btn-square btn-primary btn-lg btn-block" target="_blank"
+             href="https://twitter.com/intent/tweet?text=<%= CGI.escape("I'm going to Geek Dinner at #{place.name} #gdmsnrsvp @geekdinnersocial") %>">Save seats</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

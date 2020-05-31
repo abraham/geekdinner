@@ -1,0 +1,17 @@
+---
+title: Geek Dinner
+---
+
+<% place = data.places.next %>
+
+<%= partial 'intro' %>
+
+<%= partial 'when', locals: { place: place } %>
+
+<%= partial 'where', locals: { place: place } %>
+
+<%= partial 'rsvp', locals: { place: place } %>
+
+<%= partial 'how_to' %>
+
+<%= partial 'links' %>

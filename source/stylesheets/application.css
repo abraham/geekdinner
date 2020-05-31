@@ -1,0 +1,52 @@
+.block-bg {
+  -webkit-backface-visibility: hidden;
+}
+
+.app-block-intro {
+  z-index: 5;
+}
+
+.app-block-intro .block-bg {
+  border-bottom: 10px solid #ff3167;
+}
+
+.app-block-when {
+  z-index: 4;
+}
+.app-block-when .block-bg {
+  border-bottom: 10px solid #EEE04A;
+}
+
+.app-block-where {
+  z-index: 3;
+}
+.app-block-where .block-bg {
+  border-bottom: 10px solid #FF3167;
+}
+
+.app-block-rsvp {
+  z-index: 2;
+}
+.app-block-rsvp .block-bg {
+  border-bottom: 10px solid #5cb85c;
+}
+
+.app-block-how-to {
+  z-index: 1;
+}
+
+.app-block-how-to .block-bg {
+  border-bottom: 10px solid #EEE04A;
+}
+
+.app-how-to {
+  font-size: 18px;
+}
+
+.app-how-to li {
+  padding-bottom: 5px;
+}
+
+a .icon {
+  color: black;
+}
